@@ -71,6 +71,14 @@ specification.
   characterised; the **1 Hz SpO2/pulse scalar (`0x35`)** is fully usable.
 - Tested on one device model/firmware. Other Nox models may differ.
 
+## Related work
+- [**jussivirkkala/Noxturnal-NDF**](https://github.com/jussivirkkala/Noxturnal-NDF)
+  — MATLAB utilities for reading Noxturnal `.ndf` files (the per-signal files
+  Noxturnal *extracts* from a recording). Complementary to this project: that one
+  targets the exploded `.ndf` signals, whereas **noxnif** reads the raw `.NIF`
+  **container** directly (before Noxturnal explodes it). Useful cross-reference
+  for field names and signal conventions.
+
 ## Contributing
 PRs welcome, especially: scale/offset decoding, more device models, the Nonin
 DF19/DF22 waveform layout, and `.ndf`/`.ndb` (SQLite) support. Please include a
