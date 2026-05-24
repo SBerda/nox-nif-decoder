@@ -1,0 +1,19 @@
+# Never commit real recordings / patient data
+*.NIF
+*.nif
+*.ndf
+*.ndb
+*.edf
+PATINF*
+*.GZ
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

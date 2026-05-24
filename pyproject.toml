@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noxnif"
+version = "0.1.0"
+description = "Reverse-engineered reader for Nox Medical .NIF PSG recordings"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.20"]
+keywords = ["nox", "noxturnal", "polysomnography", "PSG", "sleep", "EDF", "NIF"]
+
+[project.urls]
+Homepage = "https://github.com/USER/nox-nif-decoder"
+
+[tool.setuptools]
+packages = ["noxnif"]
